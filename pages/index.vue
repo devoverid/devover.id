@@ -27,21 +27,21 @@ definePageMeta({
     </section>
 </template>
 <style lang="scss">
-$text-color:  rgb(68, 68, 71);;
+$text-color:  rgb(0, 0, 0);;
 
 h1 {
     font-size: clamp(2.5rem, 12vw, 5rem);
     font-weight: 400;
-    background: linear-gradient(45deg, #222,  #555);
+    background: linear-gradient(45deg, rgb(22, 17, 17),  rgb(51, 38, 38));
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 .links {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 .hero {
-    padding-top: 8rem;
+    padding: 8rem 0;
     .hero-desc {
         color: $text-color;
         font-size: clamp(1.5rem,1vw, 2rem);

@@ -9,6 +9,8 @@
 .layout-main {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(125deg, #a7a7a7,  #d0d1d1);
+    background: linear-gradient(125deg, #f1f1f1d5,  #e9e9f0de, rgb(255, 255, 255) ),  url(/images/bg.jpg);       
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 </style>
